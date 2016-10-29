@@ -14,8 +14,6 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'railroady', group: :development
 
-gem 'sqlite3', group: :development
-
 gem 'rails_12factor', group: :production
 
 gem 'pg', group: :production
