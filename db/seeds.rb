@@ -15,7 +15,7 @@ neumaticos		= Category.create(name: 'Neumaticos')
 asientos 		= Category.create(name: 'Asientos')
 
 manuel 		= User.create(name:'manuel', email:'mlainezb@gmail.com')
-beatriz	= User.create(name:'domitila', email:'beatriz@gmail.com')
+beatriz	= User.create(name:'beatriz', email:'beatriz@gmail.com')
 
 item1		= Item.create(serial:50, size:10, description: 'Primer Item', category: neumaticos, user:manuel)
 item2		= Item.create(serial:60, size:10, description: 'Segundo item', category: neumaticos, user:manuel)
