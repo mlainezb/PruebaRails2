@@ -1,5 +1,6 @@
 class Item < ActiveRecord::Base
   belongs_to :category
-  belongs_to :users
+  
+  scope :size, -> (n) {where (:size => n)}
 
 end
